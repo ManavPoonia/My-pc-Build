@@ -1,0 +1,27 @@
+.intlink {
+    display: inline-block;
+    padding: 1px 20px;
+    background-color: #FF6500; /* Button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-decoration: underline ;
+}
+
+.intlink:hover {
+    background-color: #FF6500; /* Darken button on hover */
+}
+body {
+    background-color: #1E3E62;color: #000000;font-weight: bold;font-style: italic;
+}
+img {
+    float: right;
+}
+h1 {
+    text-decoration: underline;color: #FFE5B4;
+}
+.chose11{
+    line-height: 3;color: #0B192C;
+}

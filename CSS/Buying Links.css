@@ -1,0 +1,280 @@
+a{
+    display: inline-block;
+}   
+#oliver {
+    width: 500px;
+}
+
+.Cpu {
+    position: relative; width: 500px;
+      /* Set the container size */
+}
+
+.Cpu img {
+    width: 500px;   /* Image takes full container width */
+    display: block;
+}
+
+.overlaytext1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;         /* Hidden by default */
+    transition: opacity 0.3s ease; /* Smooth fade-in effect */
+    font-size: 50px;
+    width: 500px;
+}
+
+.Cpu:hover .overlaytext1 {
+    opacity: 1;        /* Text becomes visible on hover */
+}
+
+#GPU {
+    width: 500px;
+}
+
+.Gpu {
+    position: relative; width: 500px;
+      /* Set the container size */
+}
+
+.Gpu img {
+    width: 500px;   /* Image takes full container width */
+    display: block;
+}
+
+.overlaytext2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;         /* Hidden by default */
+    transition: opacity 0.3s ease; /* Smooth fade-in effect */
+    font-size: 50px;
+    width: 500px;
+}
+
+.Gpu:hover .overlaytext2 {
+    opacity: 1;        /* Text becomes visible on hover */
+}
+#Motherboard {
+    width: 250px;
+}
+
+.mother {
+    position: relative; width: 250px;
+      /* Set the container size */
+}
+
+.mother img {
+    width: 250px;   /* Image takes full container width */
+    display: block;
+}
+
+.overlaytext3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;         /* Hidden by default */
+    transition: opacity 0.3s ease; /* Smooth fade-in effect */
+    font-size: 48px;
+    width: 250px;
+}
+
+.mother:hover .overlaytext3 {
+    opacity: 1;        /* Text becomes visible on hover */
+}
+
+#Ram {
+    width: 500px;
+}
+
+.ram {
+    position: relative; width: 500px;
+      /* Set the container size */
+}
+
+.ram img {
+    width: 500px;   /* Image takes full container width */
+    display: block;
+}
+
+.overlaytext4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;         /* Hidden by default */
+    transition: opacity 0.3s ease; /* Smooth fade-in effect */
+    font-size: 50px;
+    width: 500px;
+}
+
+.ram:hover .overlaytext4 {
+    opacity: 1;        /* Text becomes visible on hover */
+}
+#SSD {
+    width: 250px;
+}
+
+.ssd {
+    position: relative; width: 250px;
+      /* Set the container size */
+}
+
+.ssd img {
+    width: 250px;   /* Image takes full container width */
+    display: block;
+}
+
+.overlaytext5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;         /* Hidden by default */
+    transition: opacity 0.3s ease; /* Smooth fade-in effect */
+    font-size: 50px;
+    width: 250px;
+}
+
+.ssd:hover .overlaytext5 {
+    opacity: 1;        /* Text becomes visible on hover */
+}
+
+#HDD {
+    width: 250px;
+}
+
+.hdd {
+    position: relative; width: 250px;
+      /* Set the container size */
+}
+
+.hdd img {
+    width: 250px;   /* Image takes full container width */
+    display: block;
+}
+
+.overlaytext6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;         /* Hidden by default */
+    transition: opacity 0.3s ease; /* Smooth fade-in effect */
+    font-size: 50px;
+    width: 250px;
+}
+
+.hdd:hover .overlaytext6 {
+    opacity: 1;        /* Text becomes visible on hover */
+}
+
+#KEY {
+    width: 250px;
+}
+
+.key {
+    position: relative; width: 250px;
+      /* Set the container size */
+}
+
+.key img {
+    width: 250px;   /* Image takes full container width */
+    display: block;
+}
+
+.overlaytext7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;         /* Hidden by default */
+    transition: opacity 0.3s ease; /* Smooth fade-in effect */
+    font-size: 50px;
+    width: 250px;
+}
+
+.key:hover .overlaytext7 {
+    opacity: 1;        /* Text becomes visible on hover */
+}
+
+#MOU {
+    width: 250px;
+}
+
+.mou {
+    position: relative; width: 250px;
+      /* Set the container size */
+}
+
+.mou img {
+    width: 250px;   /* Image takes full container width */
+    display: block;
+}
+
+.overlaytext8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;         /* Hidden by default */
+    transition: opacity 0.3s ease; /* Smooth fade-in effect */
+    font-size: 50px;
+    width: 250px;
+}
+
+.mou:hover .overlaytext8 {
+    opacity: 1;        /* Text becomes visible on hover */
+}

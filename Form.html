@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Building Help Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .form-container h2 {
+            color: #333333;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            color: #333333;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+        }
+
+        .form-group .checkbox-group,
+        .form-group .radio-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .submit-button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            background-color: #77CDFF;
+            color: #ffffff;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .submit-button:hover {
+            background-color: #5da8d3;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>PC Building Assistance Form</h2>
+        <form action="submit_form.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="budget">Budget Range:</label>
+                <select id="budget" name="budget">
+                    <option value="500-1000">500 - 1000 rs</option>
+                    <option value="1000-1500">1000 - 1500 rs</option>
+                    <option value="1500-2000">1500 - 2000 rs</option>
+                    <option value="2000+">2000+ rs</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Experience Level:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="experience" value="beginner" required> Beginner</label>
+                    <label><input type="radio" name="experience" value="intermediate"> Intermediate</label>
+                    <label><input type="radio" name="experience" value="expert"> Expert</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Components You Need Help With:</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="components" value="cpu"> CPU</label>
+                    <label><input type="checkbox" name="components" value="gpu"> GPU</label>
+                    <label><input type="checkbox" name="components" value="ram"> RAM</label>
+                    <label><input type="checkbox" name="components" value="storage"> Storage</label>
+                    <label><input type="checkbox" name="components" value="motherboard"> Motherboard</label>
+                    <label><input type="checkbox" name="components" value="psu"> Power Supply</label>
+                    <label><input type="checkbox" name="components" value="cooling"> Cooling</label>
+                    <label><input type="checkbox" name="components" value="case"> Case</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="additional">Additional Comments:</label>
+                <textarea id="additional" name="additional" rows="4" placeholder="Any other details you'd like to share..."></textarea>
+            </div>
+            <button type="submit" class="submit-button">Submit Request</button>
+        </form>
+    </div>
+</body>
+</html>

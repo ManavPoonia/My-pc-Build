@@ -1,0 +1,24 @@
+body{
+    background-color:#77CDFF;color: #333333;font-weight: bold;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+th{
+    background-color:#E8F5E9;
+}
+.captalizetext11{
+    text-transform: uppercase;text-align: center;
+}
+img{
+    text-align: center  ;
+}
+tr:nth-child(even) {
+    background-color:#FF6F61    ;
+  }
+table{
+    border:dashed 10px
+}
+th{
+    border:solid 2px
+}
+td{
+    border:solid 2px
+}

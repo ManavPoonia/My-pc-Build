@@ -1,0 +1,17 @@
+.image-container img:nth-child(even) {
+    float: right; }
+.image-container img:nth-child(odd) {
+    float: left;
+}
+body{
+    background-image: url("../../img/wallpaperflare.com_wallpaper.jpg");
+    color:#1A1A19;font-style: italic;font-weight: bolder;
+    text-shadow: 1px 1px 0 white;font-size: large;letter-spacing: 2px;
+}
+h1{
+    color:#35511E;
+}
+.image-container img:nth-child(even) {
+    float: right; }
+.image-container img:nth-child(odd) {
+    float: left;}
